@@ -56,3 +56,11 @@ class Queue:
         
         return peek_data
 
+#Checking Queue implementation
+q1 = Queue()
+q1.enqueue(100)
+q1.enqueue(500)
+q1.enqueue(800)
+print("\nQUEUE DEQUEUE  :  ",q1.dequeue())
+print(q1.peek())
+print(q1.dequeue())
